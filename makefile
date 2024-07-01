@@ -1,10 +1,10 @@
-all : compile
+all: compile
 
-compile : stack.c
-	gcc stack.c -o assignment1
+compile : dijk.c
+	gcc dijk.c -o assignment3
 
-run : assignment1
-	./assignment1 input.txt output.txt
+run : assignment3
+	./assignment3 input.txt output.txt
 
-clean : assignment1
-	rm assignment1 output.txt
+clean : assignment3
+	rm assignment3 output.txt
